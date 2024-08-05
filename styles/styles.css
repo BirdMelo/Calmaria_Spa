@@ -32,6 +32,9 @@ header nav ul a {
   color: #0C0421;
   font-weight: 500;
 }
+header nav ul a:hover {
+  font-weight: 700;
+}
 header #home {
   max-width: 1040px;
   margin: 0 auto;
@@ -53,7 +56,7 @@ header #home .textos-home h1 span {
   color: #4E75FF;
 }
 header #home .textos-home .btn-main {
-  background: #4E75FF;
+  background: #85A0FF;
   width: 280px;
   padding: 24px;
   border-radius: 40px;
@@ -61,6 +64,10 @@ header #home .textos-home .btn-main {
   font-size: 22px;
   font-family: "Montserrat", sans-serif;
   color: #FFFFFF;
+}
+header #home .textos-home .btn-main:hover {
+  background: #4E75FF;
+  cursor: pointer;
 }
 header #home .img-home {
   max-width: 474px;
@@ -72,4 +79,60 @@ header #home .img-home img {
 #nosso-espaco {
   margin: 0 auto;
   width: 80%;
+}
+#nosso-espaco .detalhes {
+  display: inline-flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-around;
+  gap: 2rem;
+  padding: 2rem 0;
+}
+#nosso-espaco .detalhes .img-espaco, #nosso-espaco .detalhes .espaco-textos {
+  max-width: 500px;
+}
+#nosso-espaco .detalhes .espaco-textos .titulo {
+  font-family: "Krona One", sans-serif;
+  font-size: 1.8rem;
+  color: #4E75FF;
+  font-weight: 500;
+}
+#nosso-espaco .detalhes .espaco-textos .infos {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.2rem;
+  color: #0C0421;
+}
+#nosso-espaco .detalhes .espaco-textos .separado {
+  width: 100%;
+}
+#nosso-espaco .detalhes:nth-child(2) {
+  flex-direction: row-reverse;
+}
+
+#servico {
+  background: linear-gradient(180deg, #E8F5C8 0%, #FFFFFF 96.87%);
+  padding: 5rem 0;
+}
+#servico .cards {
+  margin: 0 auto;
+  width: 80%;
+  display: flex;
+  gap: 1.5rem;
+}
+#servico .cards .card {
+  border: solid #FFFFFF;
+  border-radius: 3rem;
+  padding: 1rem 1.5rem;
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.7019607843) 0%, rgba(202, 212, 250, 0.3019607843) 100%);
+  text-align: center;
+}
+#servico .cards .card-titulo {
+  font-family: "Krona One", sans-serif;
+  font-size: 1.6rem;
+  color: #0C0421;
+}
+#servico .cards .card-texto {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.2rem;
+  color: #0C0421;
 }/*# sourceMappingURL=styles.css.map */
